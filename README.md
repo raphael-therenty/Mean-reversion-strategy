@@ -44,7 +44,7 @@ Measures market volatility and provides a relative definition of high and low pr
 $$\text{Upper Band} = \mu + k\sigma$$
 $$\text{Lower Band} = \mu - k\sigma$$
 
-*Where $\mu$ is the 20-day Simple Moving Average (SMA) and $\sigma$ is the standard deviation.*
+*Where μ is the 20-day Simple Moving Average (SMA) and σ is the standard deviation.*
 
 ---
 
