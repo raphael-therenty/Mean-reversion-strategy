@@ -20,7 +20,7 @@ $$dx_t = \theta (\mu - x_t)dt + \sigma dW_t$$
 Where:
 * $x_t$: The current asset price.
 * $\mu$: The long-term mean (equilibrium price).
-* **$\theta$ (Theta):** The **speed of mean reversion**. The larger this value, the faster the price snaps back to the mean.
+* **$\theta$:** The **speed of mean reversion**. The larger this value, the faster the price snaps back to the mean.
 * $(\mu - x_t)$: The "spread" or distance from the mean. The further the price is from the mean, the stronger the pull back.
 * $\sigma dW_t$: Random market noise (volatility).
 
