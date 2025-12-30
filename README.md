@@ -33,13 +33,17 @@ The strategy relies on two key technical indicators to identify statistical outl
 
 ### 1. Relative Strength Index (RSI)
 Measures the speed and change of price movements to identify overbought or oversold conditions.
+
 $$RSI = 100 - \frac{100}{1 + RS}$$
+
 *Where $RS$ (Relative Strength) is the average of 'Up' closes divided by the average of 'Down' closes over 14 periods.*
 
 ### 2. Bollinger Bands (BB)
 Measures market volatility and provides a relative definition of high and low prices.
-$$Upper Band = \mu + k\sigma$$
-$$Lower Band = \mu - k\sigma$$
+
+$$\text{Upper Band} = \mu + k\sigma$$
+$$\text{Lower Band} = \mu - k\sigma$$
+
 *Where $\mu$ is the 20-day Simple Moving Average (SMA) and $\sigma$ is the standard deviation.*
 
 ---
