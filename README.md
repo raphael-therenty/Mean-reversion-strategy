@@ -36,7 +36,7 @@ Measures the speed and change of price movements to identify overbought or overs
 
 $$RSI = 100 - \frac{100}{1 + RS}$$
 
-*Where $RS$ (Relative Strength) is the average of 'Up' closes divided by the average of 'Down' closes over 14 periods.*
+*Where RS (Relative Strength) is the average of 'Up' closes divided by the average of 'Down' closes over 14 periods.*
 
 ### 2. Bollinger Bands (BB)
 Measures market volatility and provides a relative definition of high and low prices.
@@ -44,7 +44,7 @@ Measures market volatility and provides a relative definition of high and low pr
 $$\text{Upper Band} = \mu + k\sigma$$
 $$\text{Lower Band} = \mu - k\sigma$$
 
-*Where \mu is the 20-day Simple Moving Average (SMA) and $\sigma$ is the standard deviation.*
+*Where $\mu$ is the 20-day Simple Moving Average (SMA) and $\sigma$ is the standard deviation.*
 
 ---
 
