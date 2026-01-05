@@ -71,6 +71,7 @@ The strategy was backtested against an equal-weight **Buy & Hold** benchmark ove
 * **Total Return:** +8.66%
 * **Sharpe Ratio:** 0.52
 * **Max Drawdown:** -13.08%
+* **Win rate:** 62.33%
 
 
 ---
