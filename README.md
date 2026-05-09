@@ -20,7 +20,7 @@ $$dx_t = \theta (\mu - x_t)dt + \sigma dW_t$$
 Where:
 * $x_t$: The current asset price.
 * $\mu$: The long-term mean (equilibrium price).
-* **$\theta$ (Theta):** The **speed of mean reversion**. The larger this value, the faster the price snaps back to the mean.
+* **$\theta$:** The **speed of mean reversion**. The larger this value, the faster the price snaps back to the mean.
 * $(\mu - x_t)$: The "spread" or distance from the mean. The further the price is from the mean, the stronger the pull back.
 * $\sigma dW_t$: Random market noise (volatility).
 
@@ -34,13 +34,13 @@ The strategy relies on two key technical indicators to identify statistical outl
 ### 1. Relative Strength Index (RSI)
 Measures the speed and change of price movements to identify overbought or oversold conditions.
 $$RSI = 100 - \frac{100}{1 + RS}$$
-*Where $RS$ (Relative Strength) is the average of 'Up' closes divided by the average of 'Down' closes over 14 periods.*
+Where RS (Relative Strength) is the average of 'Up' closes divided by the average of 'Down' closes over 14 periods.*
 
 ### 2. Bollinger Bands (BB)
 Measures market volatility and provides a relative definition of high and low prices.
 $$Upper Band = \mu + k\sigma$$
 $$Lower Band = \mu - k\sigma$$
-*Where $\mu$ is the 20-day Simple Moving Average (SMA) and $\sigma$ is the standard deviation.*
+Where $\mu$ is the 20-day Simple Moving Average (SMA) and $\sigma$ is the standard deviation.*
 
 ---
 
